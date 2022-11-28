@@ -1,0 +1,99 @@
+* {
+    margin: o;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+h1 span {
+    color: rgb(15, 65, 230);
+}
+
+
+form {
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    font-size: 13px;
+}
+
+form input::placeholder {
+    opacity: 0.6;
+    padding: 5px;
+}
+
+form label input {
+    padding-left: 7px;
+    height: 30px;
+    margin-top: 1%;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    font-size: 18px;
+    
+}
+
+form label input:focus {
+    outline: none;
+}
+
+form input[type="submit"] {
+    height: 30px;
+    width: 80px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+
+hr {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+.delete {
+    color: red;
+    text-decoration: none;
+
+
+}
+
+
+.notification {
+    text-align: center;
+    margin-top: 4%;
+}
